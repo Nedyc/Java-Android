@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_home"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/activity_home.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="home"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/menu/home.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="title_activity_books" >Books
+                </string>
+                <string name="back" >Back
+                </string>
+                <string name="book" >Book
+                </string>
+                <string name="list_info" >Tap a record to edit it!
+                </string>
+                <string name="menu_option" >Menu
+                </string>
+                <string name="description" >Description
+                </string>
+                <string name="title_activity_authors" >Authors
+                </string>
+                <string name="menu_action3" >Books
+                </string>
+                <string name="title_activity_add_relation" >Add Relation
+                </string>
+                <string name="add_new" >Add New
+                </string>
+                <string name="menu_action2" >Authors
+                </string>
+                <string name="menu_action1" >Home
+                </string>
+                <string name="surname" >*Surname
+                </string>
+                <string name="save" >Save
+                </string>
+                <string name="title_activity_add_author" >Manage Author
+                </string>
+                <string name="title" >*Title
+                </string>
+                <string name="app_name" >Android Book Store
+                </string>
+                <string name="name" >*Name
+                </string>
+                <string name="delete" >Delete
+                </string>
+                <string name="author" >Author
+                </string>
+                <string name="assign" >Assign Book to Author
+                </string>
+                <string name="title_activity_add_book" >Manage Book
+                </string>
+            </file>
+            <file
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="activity_add_book"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/activity_add_book.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_add_author"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/activity_add_author.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_add_relation"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/activity_add_relation.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_books"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/activity_books.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_authors"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/activity_authors.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_item"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/spinner_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_item2"
+                path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/layout/spinner_item2.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/build/generated/res/rs/debug" />
+        <source path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/debug/res" />
+    </dataSet>
+
+</merger>

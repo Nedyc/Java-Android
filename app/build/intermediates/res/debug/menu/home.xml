@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/button" android:title="@string/menu_option" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/action1" android:title="@string/menu_action1" />
+            <item android:id="@+id/action2" android:title="@string/menu_action2" />
+            <item android:id="@+id/action3" android:title="@string/menu_action3" />
+
+        </menu>
+    </item>
+</menu><!-- From: file:/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/menu/home.xml -->

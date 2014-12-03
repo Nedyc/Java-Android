@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="add_new">Add New</string>
+    <string name="app_name">Android Book Store</string>
+    <string name="assign">Assign Book to Author</string>
+    <string name="author">Author</string>
+    <string name="back">Back</string>
+    <string name="book">Book</string>
+    <string name="delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="list_info">Tap a record to edit it!</string>
+    <string name="menu_action1">Home</string>
+    <string name="menu_action2">Authors</string>
+    <string name="menu_action3">Books</string>
+    <string name="menu_option">Menu</string>
+    <string name="name">*Name</string>
+    <string name="save">Save</string>
+    <string name="surname">*Surname</string>
+    <string name="title">*Title</string>
+    <string name="title_activity_add_author">Manage Author</string>
+    <string name="title_activity_add_book">Manage Book</string>
+    <string name="title_activity_add_relation">Add Relation</string>
+    <string name="title_activity_authors">Authors</string>
+    <string name="title_activity_books">Books</string>
+    <!-- From: file:/Users/andrea.dorigo/AndroidStudioProjects/AndroidBookStore/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

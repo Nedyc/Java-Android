@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.altervista.dorigotest.androidbookstore"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.altervista.dorigotest.androidbookstore.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.altervista.dorigotest.androidbookstore.AddRelation"
+            android:label="@string/title_activity_add_relation" >
+        </activity>
+        <activity
+            android:name="org.altervista.dorigotest.androidbookstore.AddBook"
+            android:label="@string/title_activity_add_book" >
+        </activity>
+        <activity
+            android:name="org.altervista.dorigotest.androidbookstore.AddAuthor"
+            android:label="@string/title_activity_add_author" >
+        </activity>
+        <activity
+            android:name="org.altervista.dorigotest.androidbookstore.Books"
+            android:label="@string/title_activity_books" >
+        </activity>
+        <activity
+            android:name="org.altervista.dorigotest.androidbookstore.Authors"
+            android:label="@string/title_activity_authors" >
+        </activity>
+    </application>
+
+</manifest>
